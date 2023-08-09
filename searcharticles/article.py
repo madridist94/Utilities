@@ -19,7 +19,7 @@ def main():
         [sg.Text("Артикулы в столбик:")],
         [sg.Multiline(size=(60, 5), key="-OUTPUT2-")],
         [sg.Button("Копировать", key="-COPY2-")],
-        [sg.StatusBar("@kolomiets", key="-STATUS-", size=(60, 1))],
+        
 
     ]
 
